@@ -1,0 +1,26 @@
+body{
+    margin: 0;
+    padding: 0;
+    /* background-color: purple; */
+}
+.navlinks ul li{
+    float: left;
+    padding: 0 20px;
+
+}
+.navlinks ul li a{
+    text-decoration: none;
+}
+.logo{
+    font-size: 30px;
+    margin: 10px 30px;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border: 1px solid black;
+    margin: 10px 20px;
+}
+
